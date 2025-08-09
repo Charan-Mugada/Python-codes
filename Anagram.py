@@ -1,3 +1,4 @@
+#eg listen==silent the chars must be same in both words
 s1=input("Enter 1st word: ").lower()
 s2=input("Enter 2nd word: ").lower()
 d1={}
