@@ -1,0 +1,19 @@
+'''
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+'''
+n=int(input("Enter: "))
+for i in range(n,0,-1):
+  print(' '*(n-i),end='')
+  print('* '*(i),end='\n')
+for j in range(1,n+1):
+  print(' '*(n-j),end='')
+  print('* '*(j),end='\n')
